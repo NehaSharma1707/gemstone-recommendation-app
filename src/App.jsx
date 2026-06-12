@@ -8,7 +8,7 @@ import moonstone from "./assets/moonstone.jpg";
 import diamond from "./assets/diamond.jpg";
 import amethyst from "./assets/amethyst.jpg";
 
-const API_URL = "http://localhost:5000/api/recommendations";
+const API_URL = "https://gemstone-recommendation-app-yfkf.onrender.com/api/recommendations";
 
 function App() {
   const [name, setName] = useState("");
